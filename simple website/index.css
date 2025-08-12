@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;          /* Center the title horizontally */
+  font-size: 5rem;             /* Large text size */
+  font-weight: bold;           /* Bold text */
+  margin: 0;                   /* Remove top and bottom margins */
+  padding: 20px 0;             /* Add vertical padding inside the background */
+  font-family: Arial, sans-serif; /* Clean font style */
+  color: #ffffff;              /* Text color */
+  background-color: #005591;   /* Black background */
+}
+
+
+
+.description {
+    text-align: center;       /* Center the paragraph horizontally */
+    max-width: 800px;         /* Limit maximum width for better readability */
+    margin: 100px auto;        /* Center the block and add vertical spacing */
+    font-size: 1.2rem;        /* Medium text size */
+    line-height: 1.6;         /* Increase line spacing for readability */
+    color: #333;              /* Dark gray text color */
+    font-family: Arial, sans-serif; /* Clean font style */
+}
+
+.photo {
+    display: block;           /* Makes the image behave like a block */
+    margin: 30px auto;        /* Centers the image horizontally */
+    max-width: 100%;          /* Responsive: adjusts to screen size */
+    height: auto;             /* Keeps proportions */
+    border-radius: 10px;      /* Optional: rounded corners */
+}
+
+.menu {
+  width: 100%;               /* Occupies full width */
+  margin: 0;                 /* Removes default margins */
+  padding: 10px 0;           /* Padding top and bottom only */
+  background-color: #0077cc; /* Blue background */
+  border-radius: 0;          /* No rounded corners */
+  text-align: center;        /* Centers the links inside */
+  box-sizing: border-box;    /* Includes padding in width */
+  font-family: Arial, sans-serif; /* Font style */
+}
+
+
+.menu a {
+  display: inline-block; /* Make links appear side by side */
+  margin: 0 12px; /* Horizontal spacing between links */
+  padding: 8px 15px; /* Padding to make links look like buttons */
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline from links */
+  font-weight: 600; /* Semi-bold text */
+  border-radius: 5px; /* Rounded corners on the buttons */
+  transition: background-color 0.3s ease; /* Smooth background color change on hover */
+  white-space: nowrap; /* Prevent text from wrapping to multiple lines */
+}
+
+.menu a:hover {
+  background-color: #005fa3; /* Darker blue on hover */
+}
